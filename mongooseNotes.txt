@@ -1,3 +1,4 @@
+//Full fledged API to creating a JWT from connecting with mongodb
 const express = require('express')
 const mongoose = require('mongoose')
 const jwt = require('jsonwebtoken')

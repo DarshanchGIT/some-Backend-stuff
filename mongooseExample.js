@@ -7,7 +7,7 @@ const PORT = 3000;
 app.use(express.json());
 mongoose
   .connect(
-    "mongodb+srv://admin:W6PyEwrklahbgRzD@cluster0.lhcugcv.mongodb.net/userSignup?retryWrites=true&w=majority",
+    "mongodb+srv://admin:<password>@cluster0.lhcugcv.mongodb.net/userSignup?retryWrites=true&w=majority",
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
   .then(() => console.log("Connected to MongoDB successfully !!"))
