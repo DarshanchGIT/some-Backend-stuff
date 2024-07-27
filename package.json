@@ -2,11 +2,11 @@
   "name": "week-3",
   "version": "1.0.0",
   "description": "",
-  "main": "mongooseExample.js",
+  "main": "Assg-middleware.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node mongooseExample.js",
-    "dev": "nodemon mongooseExample.js"
+    "start": "node Assg-middleware.js",
+    "dev": "nodemon Assg-middleware.js"
   },
   "author": "",
   "license": "ISC",
