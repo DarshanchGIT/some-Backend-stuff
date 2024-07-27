@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node Assg-middleware.js",
-    "dev": "nodemon Assg-middleware.js"
+    "dev": "nodemon Exercises/assg-JWTs.js"
   },
   "author": "",
   "license": "ISC",
