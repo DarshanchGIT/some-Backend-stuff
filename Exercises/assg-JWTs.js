@@ -23,8 +23,7 @@ const generateToken = (email, password) => {
   return token;
 };
 
-// Function to decode JWT token
-// Decoding a JWT token allows to read the payload and header data encoded within the token without actually verifying that whether it has been tampered or not
+// Function to decode JWT token => Decoding a JWT token allows to read the payload and header data encoded within the token without actually verifying that whether it has been tampered or not
 const decodeJWT = (token) => {
   try {
     const decoded = jwt.decode(token);
@@ -65,7 +64,7 @@ app.post("/", (req, res) => {
 app.post("/decode", (req, res) => {
   const { token } = req.body;
   const result = decodeJWT(token);
-  // result will be in boolena form telling about whether data enclosed with this token can be read or not 
+  // result will be in boolean form telling about whether data enclosed within the token can be read or not 
   res.json({ canBeDecoded: result });
 });
 
